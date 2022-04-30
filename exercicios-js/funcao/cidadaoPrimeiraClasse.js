@@ -7,6 +7,8 @@ function func1() {
     b = 5
     return a + b
 }
+
+const func1 = () => {a = 5, b = 5; return a + b}
 console.log(func1())
 //Armazenar em uma variável
 const func2 = function(a, b){
