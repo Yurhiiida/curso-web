@@ -2,10 +2,12 @@
 //Higher-order function
 
 //Criar de forma literal
-function func1(a, b) {
+function func1() {
+    a = 5
+    b = 5
     return a + b
 }
-
+console.log(func1())
 //Armazenar em uma variável
 const func2 = function(a, b){
     return a * b
