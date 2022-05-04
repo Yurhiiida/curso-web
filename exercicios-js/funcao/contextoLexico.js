@@ -8,6 +8,7 @@ function minhafuncao() {
 function exec() {
     const valor = 'Local'
     minhafuncao()
+    console.log(valor)
 }
 
 exec()
